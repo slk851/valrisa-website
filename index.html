@@ -10,22 +10,22 @@
     *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#eee9f7;line-height:1.6}
     a{color:inherit}.wrap{max-width:1080px;margin:auto;padding:0 24px}
     header{border-bottom:0;background:#eee9f7;position:sticky;top:0}
-    nav{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.08em;font-size:20px;text-decoration:none}.brand img{display:block;height:48px;width:auto}
-    nav .links{display:flex;gap:24px;font-size:14px}nav .links a{text-decoration:none;color:var(--muted)}
-    .hero{padding:100px 0 86px;background:#eee9f7}.eyebrow{color:var(--purple);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:13px}
-    h1{font-size:clamp(46px,8vw,78px);line-height:1.02;margin:14px 0 20px;letter-spacing:-.04em}.lead{max-width:680px;font-size:21px;color:var(--muted);margin:0}
-    .section{padding:78px 0;background:#eee9f7}.section h2{font-size:34px;margin:0 0 12px}.intro{color:var(--muted);max-width:680px;margin:0 0 34px}
+    nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand-group{display:flex;align-items:center;gap:18px;min-width:0}.brand{display:block;flex:none;text-decoration:none}.brand img{display:block;height:48px;width:auto}.brand-definition{max-width:470px;font-size:13px;line-height:1.35;color:var(--muted)}.brand-definition strong{color:var(--ink);letter-spacing:.05em}
+    nav .links{display:flex;gap:24px;font-size:14px;flex:none}nav .links a{text-decoration:none;color:var(--muted)}
+    .hero{padding:54px 0 28px;background:#eee9f7}.eyebrow{color:var(--purple);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:13px}
+    h1{font-size:clamp(46px,8vw,78px);line-height:1.02;margin:0 0 14px;letter-spacing:-.04em}.lead{max-width:680px;font-size:21px;color:var(--muted);margin:0}
+    .section{padding:58px 0;background:#eee9f7}#products{padding-top:24px}.section h2{font-size:34px;margin:0 0 12px}.intro{color:var(--muted);max-width:680px;margin:0 0 34px}
     .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{border:1px solid var(--line);border-radius:22px;padding:28px;background:#fff;display:flex;flex-direction:column;align-items:flex-start}.app-icon{display:block;width:84px;height:84px;object-fit:cover;border-radius:19px;margin-bottom:22px;box-shadow:0 8px 22px #32204b24}.tag{font-size:12px;font-weight:700;color:var(--purple);text-transform:uppercase;letter-spacing:.08em}
     .card h3{font-size:25px;margin:8px 0}.card p{color:var(--muted);margin:0 0 20px;flex:1}.button{display:inline-block;text-decoration:none;background:var(--ink);color:#fff;padding:11px 17px;border-radius:10px;font-weight:650;font-size:14px}
     .about{background:#eee9f7}.about p{max-width:760px;color:var(--muted);font-size:18px}
     footer{border-top:1px solid var(--line);padding:34px 0;background:#eee9f7;color:var(--muted);font-size:14px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot a{margin-left:18px}
-    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){nav .links{display:none}.hero{padding:72px 0 64px}.grid{grid-template-columns:1fr}.section{padding:58px 0}}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){nav{min-height:74px}.brand-group{gap:12px}.brand img{height:42px}.brand-definition{font-size:11px;line-height:1.25}nav .links{display:none}.hero{padding:42px 0 18px}.grid{grid-template-columns:1fr}.section{padding:48px 0}#products{padding-top:18px}}
   </style>
 </head>
 <body>
-<header><div class="wrap"><nav><a class="brand" href="/" aria-label="SLK85-Labs home"><img src="/slk85-labs.png" alt="SLK85-Labs"></a><div class="links"><a href="#products">Products</a><a href="#about">About</a><a href="/support/">Support</a></div></nav></div></header>
+<header><div class="wrap"><nav><div class="brand-group"><a class="brand" href="/" aria-label="SLK85-Labs home"><img src="/slk85-labs.png" alt="SLK85-Labs"></a><div class="brand-definition"><strong>VALRISA</strong> — Versatile Applications for Life, Records, Insights, Simplicity, and Action.</div></div><div class="links"><a href="#products">Products</a><a href="#about">About</a><a href="/support/">Support</a></div></nav></div></header>
 <main>
-<section class="hero"><div class="wrap"><div class="eyebrow">By SLK85-Labs</div><h1>Simple tools.<br>Useful every day.</h1><p class="lead"><strong>VALRISA</strong> — Versatile Applications for Life, Records, Insights, Simplicity, and Action.<br>Focused apps that make everyday tasks easier — without unnecessary complexity.</p></div></section>
+<section class="hero"><div class="wrap"><h1>Simple tools.<br>Useful every day.</h1><p class="lead">Focused apps that make everyday tasks easier — without unnecessary complexity.</p></div></section>
 <section class="section" id="products"><div class="wrap"><h2>Valrisa products</h2><p class="intro">Purpose-built applications designed to keep the experience clear, practical and intuitive.</p><div class="grid">
 <article class="card"><img class="app-icon" src="/assets/packsimple-icon.png" width="84" height="84" alt="Valrisa PackSimple app icon"><div class="tag">Travel</div><h3>Valrisa PackSimple</h3><p>A straightforward packing-list companion that helps you organize trips and remember what matters.</p><a class="button" href="/packsimple/">Learn more</a></article>
 <article class="card"><img class="app-icon" src="/assets/options-tracker-icon.png" width="84" height="84" alt="Valrisa Options Tracker app icon"><div class="tag">Investing</div><h3>Valrisa Options Tracker</h3><p>A private, focused way to organize and understand options trading activity and portfolio information.</p><a class="button" href="/options/">Learn more</a></article>
