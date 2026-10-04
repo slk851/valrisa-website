@@ -85,10 +85,12 @@
   };
 
   if (active !== "en") {
-    const script = document.createElement("script");
-    script.src = "/assets/i18n/" + active + ".js";
-    script.defer = true;
-    document.head.appendChild(script);
+    for (const suffix of ["", "-products", "-legal"]) {
+      const script = document.createElement("script");
+      script.src = "/assets/i18n/" + active + suffix + ".js";
+      script.async = false;
+      document.head.appendChild(script);
+    }
   } else {
     document.documentElement.lang = "en";
   }
