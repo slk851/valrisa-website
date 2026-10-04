@@ -1,0 +1,12 @@
+.language-picker{display:inline-flex;align-items:center;gap:7px;margin-left:auto;color:#6f687b;font-size:14px;white-space:nowrap}
+.language-picker select{appearance:auto;border:1px solid #d8cfea;border-radius:10px;background:#fff;color:#201833;font:inherit;padding:8px 28px 8px 10px;cursor:pointer}
+.language-picker select:focus{outline:2px solid #6f4bd8;outline-offset:2px}
+header nav{flex-wrap:nowrap}
+.site-links{display:flex;align-items:center}
+@media(max-width:700px){
+  header nav{gap:12px}
+  .language-picker{margin-left:auto}
+  .language-picker span{display:none}
+  .language-picker select{max-width:112px;padding:7px 24px 7px 8px;font-size:12px}
+  .site-links{display:none!important}
+}
