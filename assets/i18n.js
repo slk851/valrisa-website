@@ -43,7 +43,18 @@
     apply(dictionary) {
       if (!dictionary) return;
       document.documentElement.lang = active;
-      const translate = value => dictionary[value.trim()] || null;
+      const normalize = value => value.replace(/\s+/g, " ").trim();
+      const translate = value => {
+        const text = normalize(value);
+        const direct = dictionary[text];
+        if (direct) return direct;
+        const suffix = ". Open full-size image.";
+        if (text.endsWith(suffix)) {
+          const imageLabel = dictionary[text.slice(0, -suffix.length)];
+          if (imageLabel) return imageLabel + ". " + dictionary["Open full-size image."];
+        }
+        return null;
+      };
       const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
         acceptNode(node) {
           if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
@@ -85,9 +96,9 @@
   };
 
   if (active !== "en") {
-    for (const suffix of ["", "-products", "-legal"]) {
+    for (const suffix of [""]) {
       const script = document.createElement("script");
-      script.src = "/assets/i18n/" + active + suffix + ".js";
+      script.src = "/assets/i18n/" + active + suffix + ".js?v=20261004-complete";
       script.async = false;
       document.head.appendChild(script);
     }
