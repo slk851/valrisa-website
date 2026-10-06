@@ -223,5 +223,20 @@ window.ValrisaI18n.apply({
   "This Privacy Policy describes how SLK85-Labs handles information in connection with Valrisa PackSimple.": "Cette politique décrit le traitement des informations liées à Valrisa PackSimple par SLK85-Labs.",
   "PackSimple is not designed to knowingly collect personal information from children.": "PackSimple n’est pas conçu pour collecter sciemment des informations personnelles d’enfants.",
   "By SLK85-Labs · macOS": "Par SLK85-Labs · macOS",
-  "Open full-size image.": "Ouvrir l’image en taille réelle."
+  "Open full-size image.": "Ouvrir l’image en taille réelle.",
+  "Valrisa Options Tracker Support": "Assistance Valrisa Options Tracker",
+  "Valrisa Options Tracker Privacy Policy": "Politique de confidentialité de Valrisa Options Tracker",
+  "Help and information for Valrisa Options Tracker.": "Aide et informations pour Valrisa Options Tracker.",
+  "Valrisa Life Planner Support": "Assistance Valrisa Life Planner",
+  "Valrisa Life Planner Privacy Policy": "Politique de confidentialité de Valrisa Life Planner",
+  "Help and information for Valrisa Life Planner.": "Aide et informations pour Valrisa Life Planner.",
+  "Reminders": "Rappels",
+  "If reminders do not arrive, check notification permission for Life Planner in iPhone Settings, confirm the plan's reminder time and upcoming date, and try a test alert in the app.": "Si les rappels n’arrivent pas, vérifiez l’autorisation de notification de Life Planner dans les Réglages de l’iPhone, l’heure et la prochaine date du plan, puis essayez une alerte de test dans l’app.",
+  "For Pro purchase questions, use Restore Purchase with the Apple Account used for the original purchase.": "Pour les questions concernant l’achat Pro, utilisez Restaurer l’achat avec le compte Apple utilisé lors de l’achat initial.",
+  "Life Planner does not require a Valrisa account, serve advertising, or use third-party behavioral tracking or analytics.": "Life Planner ne nécessite pas de compte Valrisa, n’affiche pas de publicité et n’utilise aucun suivi comportemental ni outil d’analyse tiers.",
+  "Notifications": "Notifications",
+  "The optional Pro purchase and restoration use Apple’s App Store services. SLK85-Labs does not receive your payment-card details.": "L’achat Pro facultatif et sa restauration utilisent les services App Store d’Apple. SLK85-Labs ne reçoit pas les données de votre carte de paiement.",
+  "Private by design.": "Confidentialité dès la conception.",
+  "No Valrisa account. No advertising. No behavioral tracking. Your packing and trip data stays on your device. SLK85-Labs does not collect your packing lists or trip information.": "Aucun compte Valrisa. Aucune publicité. Aucun suivi comportemental. Vos données de bagages et de voyage restent sur votre appareil. SLK85-Labs ne collecte ni vos listes de bagages ni vos informations de voyage.",
+  "Product": "Produit"
 });
