@@ -223,5 +223,20 @@ window.ValrisaI18n.apply({
   "Support for Valrisa applications by SLK85-Labs.": "SLK85-LabsのValrisaアプリのサポート。",
   "About Valrisa PackSimple, a simple packing list app by SLK85-Labs.": "SLK85-Labsのシンプルなパッキングリストアプリ、Valrisa PackSimpleについて。",
   "By SLK85-Labs · macOS": "SLK85-Labs提供 · macOS",
-  "Open full-size image.": "原寸の画像を開く。"
+  "Open full-size image.": "原寸の画像を開く。",
+  "Valrisa Options Tracker Support": "Valrisa Options Tracker サポート",
+  "Valrisa Options Tracker Privacy Policy": "Valrisa Options Tracker プライバシーポリシー",
+  "Help and information for Valrisa Options Tracker.": "Valrisa Options Tracker のヘルプと情報です。",
+  "Valrisa Life Planner Support": "Valrisa Life Planner サポート",
+  "Valrisa Life Planner Privacy Policy": "Valrisa Life Planner プライバシーポリシー",
+  "Help and information for Valrisa Life Planner.": "Valrisa Life Planner のヘルプと情報です。",
+  "Reminders": "リマインダー",
+  "If reminders do not arrive, check notification permission for Life Planner in iPhone Settings, confirm the plan's reminder time and upcoming date, and try a test alert in the app.": "リマインダーが届かない場合は、iPhoneの設定でLife Plannerの通知許可を確認し、プランのリマインダー時刻と次回日付を確認して、アプリ内のテスト通知をお試しください。",
+  "For Pro purchase questions, use Restore Purchase with the Apple Account used for the original purchase.": "Pro購入については、元の購入に使用したApple Accountで「購入を復元」を使用してください。",
+  "Life Planner does not require a Valrisa account, serve advertising, or use third-party behavioral tracking or analytics.": "Life PlannerはValrisaアカウントを必要とせず、広告を表示せず、第三者の行動追跡や分析を使用しません。",
+  "Notifications": "通知",
+  "The optional Pro purchase and restoration use Apple’s App Store services. SLK85-Labs does not receive your payment-card details.": "オプションのPro購入と復元にはAppleのApp Storeサービスを使用します。SLK85-Labsはお支払いカード情報を受け取りません。",
+  "Private by design.": "プライバシーを重視した設計。",
+  "No Valrisa account. No advertising. No behavioral tracking. Your packing and trip data stays on your device. SLK85-Labs does not collect your packing lists or trip information.": "Valrisaアカウント不要。広告なし。行動追跡なし。持ち物と旅行のデータは端末内に保存されます。SLK85-Labsは持ち物リストや旅行情報を収集しません。",
+  "Product": "製品"
 });
