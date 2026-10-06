@@ -5,7 +5,8 @@
     es: "Español",
     fr: "Français",
     de: "Deutsch",
-    it: "Italiano"
+    it: "Italiano",
+    zh: "简体中文"
   };
   const key = "valrisa-language";
   const supported = Object.keys(languages);
@@ -98,7 +99,7 @@
   if (active !== "en") {
     for (const suffix of [""]) {
       const script = document.createElement("script");
-      script.src = "/assets/i18n/" + active + suffix + ".js?v=20261004-complete";
+      script.src = "/assets/i18n/" + active + suffix + ".js?v=20261006-zh";
       script.async = false;
       document.head.appendChild(script);
     }
