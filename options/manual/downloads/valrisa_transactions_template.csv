@@ -1,0 +1,5 @@
+ValrisaFormatVersion,1.1
+FileType,Transactions
+Brokerage,
+Account,
+Date,Action,Symbol,Description,Quantity,Price,Fees,Amount

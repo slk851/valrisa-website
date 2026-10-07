@@ -1,0 +1,6 @@
+ValrisaFormatVersion,1.1
+FileType,Positions
+PositionAsOfDate,
+Brokerage,
+Account,
+Symbol,Description,Asset Type,Quantity,Price,Market Value,Cost Basis,Gain Loss,Gain Loss Percent
