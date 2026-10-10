@@ -16,9 +16,36 @@
     @media(max-width:850px){.features{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:600px){.links{gap:10px;font-size:13px}.hero{padding:48px 0}.hero-grid{grid-template-columns:1fr}.hero-icon{width:120px;border-radius:26px;margin:0}.features{grid-template-columns:1fr}.gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 3px 30px;gap:14px}.shot{flex:0 0 min(66vw,240px);scroll-snap-align:start}.shot img{border-radius:19px}}
   </style>
   <link rel="stylesheet" href="/assets/i18n.css">
+<style>
+/* Consistent product-page navigation and spacing. */
+body{line-height:1.65}
+.wrap{max-width:1080px;padding:0 24px}
+header{background:#eee9f7;border-bottom:1px solid #ddd4eb}
+header nav{min-height:80px;height:auto;padding:16px 0;display:flex;align-items:center;justify-content:flex-start;gap:28px;flex-wrap:wrap}
+header .brand{flex:0 0 auto}
+header .brand img{height:48px;width:auto;display:block}
+header .links,header .site-links{display:flex!important;align-items:center;flex-wrap:wrap;gap:18px;font-size:14px}
+header .links a{color:#6f687b;text-decoration:none;white-space:nowrap}
+header .links a:hover,header .links a:focus-visible{color:#6f4bd8;text-decoration:underline}
+header .language-picker{margin-left:auto}
+main{padding:64px 0 80px}
+main .hero{padding:0 0 56px}
+.hero-grid{gap:40px}
+.hero-icon{width:min(230px,80%)}
+.app-store-link{margin-top:18px}
+@media(max-width:700px){
+ header nav{gap:16px}
+ header .links,header .site-links{order:3;width:100%;gap:12px 18px;font-size:14px}
+ header .language-picker{order:2}
+ main{padding:40px 0 56px}
+ main .hero{padding:0 0 40px}
+ .hero-grid{grid-template-columns:1fr}
+ .hero-icon{width:120px}
+}
+</style>
 </head>
 <body>
-<header><div class="wrap"><nav><a class="brand" href="/" aria-label="SLK85-Labs home"><img src="/slk85-labs.png" alt="SLK85-Labs"></a><div class="links"><a href="/">Home</a><a href="/#products">Products</a><a href="/life-planner/support/">Support</a></div></nav></div></header>
+<header><div class="wrap"><nav><a class="brand" href="/" aria-label="SLK85-Labs home"><img src="/slk85-labs.png" alt="SLK85-Labs"></a><div class="links"><a href="/">Home</a><a href="/#products">Products</a><a href="/life-planner/support/">Support</a><a href="/life-planner/privacy/">Privacy</a></div></nav></div></header>
 <main>
   <section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Valrisa · iPhone</div><h1>Make room for what matters.</h1><p class="lead">Valrisa Life Planner helps you keep recurring tasks in view. Choose a ready-made plan, set its schedule, and get a reminder at a time that works for you.</p><a class="app-store-link" href="https://apps.apple.com/app/id6817293504" aria-label="Download Valrisa Life Planner on the App Store"><img src="/assets/download-on-mac-app-store.svg" width="144" height="48" alt="Download on the App Store"></a> <a class="button" href="#screenshots">See the app</a></div><img class="hero-icon" src="/assets/life-planner-icon-web.png" width="230" height="230" alt="Valrisa Life Planner app icon"></div></section>
   <section class="content"><div class="wrap"><h2>Practical plans for everyday life</h2><p class="intro">Start with a suggested plan or create your own. Life Planner brings dates, recurring tasks, and reminders together in one simple place.</p><div class="features">
