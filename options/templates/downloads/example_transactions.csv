@@ -1,0 +1,7 @@
+ValrisaFormatVersion,1.1
+FileType,Transactions
+Brokerage,Example Broker
+Account,Example Account
+Date,Action,Symbol,Description,Quantity,Price,Fees,Amount
+2026-10-01,Buy,ABC,Example stock,10,10,0,-100
+2026-10-13,Cash Dividend,ABC,Example dividend,0,0,0,1.25
