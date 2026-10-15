@@ -43,11 +43,6 @@
     "step2": "Use iCloud Drive, Safari Downloads, email → Save to Files, or AirDrop from your Mac. Download cloud-only files before selecting them.",
     "step3Title": "Preview, then import",
     "step3": "Tap Import CSV → Browse, choose the file, review the preview and confirm. Check the results against your brokerage statement.",
-    "pricingEyebrow": "SIMPLE ACCESS",
-    "pricingTitle": "Try it for 30 days. Keep it with one purchase.",
-    "pricingBody": "Free to download. Start the 30-day trial in the app to try imports and editing. When the trial ends, you choose whether to unlock continued access.",
-    "priceLabel": "One-time lifetime unlock",
-    "priceNote": "US App Store price. Local prices may vary and are shown in the app.",
     "retained": "No subscription and no automatic charge. After the trial, your records remain available for viewing, income reports, CSV export and backup.",
     "faqTitle": "Good to know before you start.",
     "faq1Title": "Does it connect to my brokerage?",
@@ -82,7 +77,8 @@
     "productPhoneLink": "iPhone version",
     "productPhoneTitle": "Options Tracker for iPhone",
     "productPhoneBody": "Coming soon: follow your income and organize brokerage records on iPhone. A 30-day free trial and a separate one-time unlock.",
-    "productPhoneExplore": "Explore the iPhone app →"
+    "productPhoneExplore": "Explore the iPhone app →",
+    "manual": "User manual"
   },
   "ja": {
     "skip": "本文へ移動",
@@ -124,10 +120,6 @@
     "step2": "iCloud Drive、Safariのダウンロード、メールの「ファイルに保存」、MacからのAirDropを利用できます。クラウドのみのファイルは先にダウンロードしてください。",
     "step3Title": "プレビュー後に取込",
     "step3": "Import CSV → Browseをタップしてファイルを選び、プレビューを確認して取り込みます。結果は証券会社の明細と照合してください。",
-    "pricingTitle": "30日間試して、1回の購入で使い続ける。",
-    "pricingBody": "ダウンロードは無料です。アプリで30日間のトライアルを開始すると取込や編集を試せます。終了後も続けるかどうかは、ご自身で選べます。",
-    "priceLabel": "1回の購入で無期限アクセス",
-    "priceNote": "米国App Store価格。地域ごとの価格は異なる場合があり、アプリ内で表示されます。",
     "retained": "サブスクリプションも自動課金もありません。トライアル終了後も記録の閲覧、収入レポート、CSV出力、バックアップを利用できます。",
     "faqTitle": "使い始める前に。",
     "faq1Title": "証券会社に直接接続しますか？",
@@ -155,7 +147,6 @@
     "eyebrow": "VALRISA · iPHONE",
     "featureEyebrow": "個々の取引から、期間ごとの収入まで。",
     "importEyebrow": "CSV · iPhone",
-    "pricingEyebrow": "30日間の無料トライアル",
     "heroAlt": "オプション・株式・履歴",
     "iconAlt": "Valrisa Options Tracker",
     "pageTitle": "Valrisa Options Tracker iPhone版 | SLK85-Labs",
@@ -166,7 +157,8 @@
     "shot3": "月別収入",
     "shot4": "取引履歴",
     "shot5": "株式の詳細",
-    "shot6": "バックアップと復元"
+    "shot6": "バックアップと復元",
+    "manual": "ユーザーマニュアル"
   },
   "es": {
     "skip": "Ir al contenido",
@@ -208,10 +200,6 @@
     "step2": "Usa iCloud Drive, Descargas de Safari, correo → Guardar en Archivos o AirDrop desde tu Mac. Descarga primero los archivos que estén solo en la nube.",
     "step3Title": "Revisa e importa",
     "step3": "Toca Import CSV → Browse, selecciona el archivo, revisa la vista previa y confirma. Contrasta los resultados con el extracto de tu bróker.",
-    "pricingTitle": "Pruébala 30 días. Consérvala con una compra.",
-    "pricingBody": "Descarga gratuita. Inicia la prueba de 30 días en la app para probar la importación y edición. Al terminar, tú decides si desbloqueas el acceso continuado.",
-    "priceLabel": "Acceso permanente con un solo pago",
-    "priceNote": "Precio del App Store de EE. UU. Los precios locales pueden variar y se muestran en la app.",
     "retained": "Sin suscripción ni cobro automático. Tras la prueba puedes seguir consultando registros e informes de ingresos, exportar CSV y crear copias de seguridad.",
     "faqTitle": "Antes de empezar.",
     "faq1Title": "¿Se conecta a mi bróker?",
@@ -239,7 +227,6 @@
     "eyebrow": "VALRISA · iPHONE",
     "featureEyebrow": "Desde cada operación hasta los ingresos por período.",
     "importEyebrow": "CSV · iPhone",
-    "pricingEyebrow": "Prueba gratuita de 30 días",
     "heroAlt": "Opciones, acciones e historial",
     "iconAlt": "Valrisa Options Tracker",
     "pageTitle": "Valrisa Options Tracker para iPhone | SLK85-Labs",
@@ -250,7 +237,8 @@
     "shot3": "Ingresos mensuales",
     "shot4": "Historial de operaciones",
     "shot5": "Detalles de acciones",
-    "shot6": "Copia de seguridad y restauración"
+    "shot6": "Copia de seguridad y restauración",
+    "manual": "Manual de usuario"
   },
   "fr": {
     "skip": "Aller au contenu",
@@ -292,10 +280,6 @@
     "step2": "Utilisez iCloud Drive, les téléchargements Safari, e-mail → Enregistrer dans Fichiers ou AirDrop depuis votre Mac. Téléchargez d’abord les fichiers uniquement dans le cloud.",
     "step3Title": "Vérifiez, puis importez",
     "step3": "Touchez Import CSV → Browse, choisissez le fichier, vérifiez l’aperçu et confirmez. Comparez les résultats avec le relevé de votre courtier.",
-    "pricingTitle": "Essayez 30 jours. Un achat pour continuer.",
-    "pricingBody": "Téléchargement gratuit. Activez l’essai de 30 jours dans l’app pour tester l’importation et l’édition. Ensuite, vous décidez de débloquer ou non l’accès continu.",
-    "priceLabel": "Accès permanent avec un achat unique",
-    "priceNote": "Prix de l’App Store américain. Les prix locaux peuvent varier et sont affichés dans l’app.",
     "retained": "Sans abonnement ni débit automatique. Après l’essai, vous gardez l’accès aux données, rapports de revenus, exports CSV et sauvegardes.",
     "faqTitle": "À savoir avant de commencer.",
     "faq1Title": "L’app se connecte-t-elle à mon courtier ?",
@@ -323,7 +307,6 @@
     "eyebrow": "VALRISA · iPHONE",
     "featureEyebrow": "De chaque opération aux revenus dans le temps.",
     "importEyebrow": "CSV · iPhone",
-    "pricingEyebrow": "Essai gratuit de 30 jours",
     "heroAlt": "Options, actions et historique",
     "iconAlt": "Valrisa Options Tracker",
     "pageTitle": "Valrisa Options Tracker pour iPhone | SLK85-Labs",
@@ -334,7 +317,8 @@
     "shot3": "Revenus mensuels",
     "shot4": "Historique des opérations",
     "shot5": "Détails des actions",
-    "shot6": "Sauvegarde et restauration"
+    "shot6": "Sauvegarde et restauration",
+    "manual": "Manuel utilisateur"
   },
   "de": {
     "skip": "Zum Inhalt",
@@ -376,10 +360,6 @@
     "step2": "Nutzen Sie iCloud Drive, Safari-Downloads, E-Mail → In Dateien sichern oder AirDrop vom Mac. Laden Sie reine Cloud-Dateien vor der Auswahl herunter.",
     "step3Title": "Prüfen und importieren",
     "step3": "Tippen Sie auf Import CSV → Browse, wählen Sie die Datei, prüfen Sie die Vorschau und bestätigen Sie. Gleichen Sie das Ergebnis mit dem Brokerauszug ab.",
-    "pricingTitle": "30 Tage testen. Mit einem Kauf weiter nutzen.",
-    "pricingBody": "Kostenlos herunterladen. Starten Sie in der App den 30-Tage-Test für Import und Bearbeitung. Danach entscheiden Sie selbst über die dauerhafte Freischaltung.",
-    "priceLabel": "Dauerhafter Zugang durch Einmalkauf",
-    "priceNote": "Preis im US-App-Store. Lokale Preise können abweichen und werden in der App angezeigt.",
     "retained": "Kein Abonnement und keine automatische Abbuchung. Nach dem Test bleiben Ihre Daten, Ertragsberichte, CSV-Exporte und Sicherungen zugänglich.",
     "faqTitle": "Gut zu wissen vor dem Start.",
     "faq1Title": "Verbindet sich die App mit meinem Broker?",
@@ -407,7 +387,6 @@
     "eyebrow": "VALRISA · iPHONE",
     "featureEyebrow": "Von einzelnen Trades zu Erträgen im Zeitverlauf.",
     "importEyebrow": "CSV · iPhone",
-    "pricingEyebrow": "30 Tage kostenlos testen",
     "heroAlt": "Optionen, Aktien und Verlauf",
     "iconAlt": "Valrisa Options Tracker",
     "pageTitle": "Valrisa Options Tracker für iPhone | SLK85-Labs",
@@ -418,7 +397,8 @@
     "shot3": "Monatliche Erträge",
     "shot4": "Transaktionsverlauf",
     "shot5": "Aktiendetails",
-    "shot6": "Sichern und wiederherstellen"
+    "shot6": "Sichern und wiederherstellen",
+    "manual": "Benutzerhandbuch"
   },
   "it": {
     "skip": "Vai al contenuto",
@@ -460,10 +440,6 @@
     "step2": "Usa iCloud Drive, download Safari, email → Salva su File o AirDrop dal Mac. Scarica prima i file disponibili solo nel cloud.",
     "step3Title": "Controlla e importa",
     "step3": "Tocca Import CSV → Browse, scegli il file, controlla l’anteprima e conferma. Confronta i risultati con l’estratto del broker.",
-    "pricingTitle": "Provala per 30 giorni. Continua con un acquisto.",
-    "pricingBody": "Download gratuito. Avvia la prova di 30 giorni nell’app per testare importazione e modifica. Alla scadenza, decidi tu se sbloccare l’accesso continuativo.",
-    "priceLabel": "Accesso permanente con un acquisto unico",
-    "priceNote": "Prezzo dell’App Store USA. I prezzi locali possono variare e sono mostrati nell’app.",
     "retained": "Nessun abbonamento o addebito automatico. Dopo la prova restano disponibili dati, report sul reddito, export CSV e backup.",
     "faqTitle": "Da sapere prima di iniziare.",
     "faq1Title": "L’app si collega al mio broker?",
@@ -491,7 +467,6 @@
     "eyebrow": "VALRISA · iPHONE",
     "featureEyebrow": "Dalle singole operazioni al reddito nel tempo.",
     "importEyebrow": "CSV · iPhone",
-    "pricingEyebrow": "Prova gratuita di 30 giorni",
     "heroAlt": "Opzioni, azioni e storico",
     "iconAlt": "Valrisa Options Tracker",
     "pageTitle": "Valrisa Options Tracker per iPhone | SLK85-Labs",
@@ -502,7 +477,8 @@
     "shot3": "Reddito mensile",
     "shot4": "Storico delle operazioni",
     "shot5": "Dettagli delle azioni",
-    "shot6": "Backup e ripristino"
+    "shot6": "Backup e ripristino",
+    "manual": "Manuale utente"
   },
   "zh": {
     "skip": "跳转至正文",
@@ -544,10 +520,6 @@
     "step2": "可使用 iCloud Drive、Safari 下载、邮件→存储到“文件”，或从 Mac 通过 AirDrop 传送。选择前请先下载仅在云端的文件。",
     "step3Title": "预览后导入",
     "step3": "点击 Import CSV → Browse，选择文件、检查预览并确认。请将结果与券商账单核对。",
-    "pricingTitle": "先试用 30 天，再一次购买继续使用。",
-    "pricingBody": "免费下载。在应用中开启 30 天试用，体验导入和编辑。试用结束后，是否解锁继续使用由您决定。",
-    "priceLabel": "一次购买，永久解锁",
-    "priceNote": "美国 App Store 价格。各地区价格可能不同，以应用中显示为准。",
     "retained": "无订阅，也不会自动扣费。试用结束后仍可查看记录和收益报告、导出 CSV 及创建备份。",
     "faqTitle": "开始前了解这些事项。",
     "faq1Title": "应用会连接我的券商吗？",
@@ -575,7 +547,6 @@
     "eyebrow": "VALRISA · iPHONE",
     "featureEyebrow": "从每笔交易到各期间的收益。",
     "importEyebrow": "CSV · iPhone",
-    "pricingEyebrow": "30 天免费试用",
     "heroAlt": "期权、股票与历史",
     "iconAlt": "Valrisa Options Tracker",
     "pageTitle": "Valrisa Options Tracker iPhone 版 | SLK85-Labs",
@@ -586,7 +557,8 @@
     "shot3": "每月收益",
     "shot4": "交易历史",
     "shot5": "股票详情",
-    "shot6": "备份与恢复"
+    "shot6": "备份与恢复",
+    "manual": "用户手册"
   }
 };
   const lang = window.ValrisaI18n?.active || 'en';
@@ -602,3 +574,4 @@
     document.querySelector('meta[property="og:description"]').content = t.ogDescription;
   }
 })();
+
