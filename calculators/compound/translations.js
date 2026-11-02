@@ -43,7 +43,8 @@ window.CompoundTranslations={
     "support": "Support",
     "error": "Check inputs: nonnegative amounts, 1–100 whole years, and annual returns above −100% and up to 100%.",
     "after": "After {n} years",
-    "pageTitle": "Compound Growth Calculator | Valrisa"
+    "pageTitle": "Compound Growth Calculator | Valrisa",
+    "hub": "Calculators"
   },
   "ja": {
     "home": "ホーム",
@@ -89,7 +90,8 @@ window.CompoundTranslations={
     "support": "サポート",
     "error": "入力値を確認：金額は0以上、年数は1〜100の整数、年間収益率は−100%超〜100%です。",
     "after": "{n}年後",
-    "pageTitle": "複利計算ツール | Valrisa"
+    "pageTitle": "複利計算ツール | Valrisa",
+    "hub": "計算ツール"
   },
   "es": {
     "home": "Inicio",
@@ -135,7 +137,8 @@ window.CompoundTranslations={
     "support": "Soporte",
     "error": "Revisa los datos: importes no negativos, de 1 a 100 años enteros y rentabilidad anual superior a −100% y hasta 100%.",
     "after": "Después de {n} años",
-    "pageTitle": "Calculadora de interés compuesto | Valrisa"
+    "pageTitle": "Calculadora de interés compuesto | Valrisa",
+    "hub": "Calculadoras"
   },
   "fr": {
     "home": "Accueil",
@@ -181,7 +184,8 @@ window.CompoundTranslations={
     "support": "Assistance",
     "error": "Vérifiez les données : montants non négatifs, 1 à 100 années entières et rendement annuel supérieur à −100 % et au maximum 100 %.",
     "after": "Après {n} ans",
-    "pageTitle": "Calculateur d’intérêts composés | Valrisa"
+    "pageTitle": "Calculateur d’intérêts composés | Valrisa",
+    "hub": "Calculateurs"
   },
   "de": {
     "home": "Startseite",
@@ -227,7 +231,8 @@ window.CompoundTranslations={
     "support": "Support",
     "error": "Eingaben prüfen: Beträge ab null, 1–100 ganze Jahre und jährliche Renditen über −100 % bis höchstens 100 %.",
     "after": "Nach {n} Jahren",
-    "pageTitle": "Zinseszinsrechner | Valrisa"
+    "pageTitle": "Zinseszinsrechner | Valrisa",
+    "hub": "Rechner"
   },
   "it": {
     "home": "Home",
@@ -273,7 +278,8 @@ window.CompoundTranslations={
     "support": "Assistenza",
     "error": "Controlla i dati: importi non negativi, da 1 a 100 anni interi e rendimenti annui superiori a −100% e fino al 100%.",
     "after": "Dopo {n} anni",
-    "pageTitle": "Calcolatore di interesse composto | Valrisa"
+    "pageTitle": "Calcolatore di interesse composto | Valrisa",
+    "hub": "Calcolatori"
   },
   "zh": {
     "home": "首页",
@@ -319,6 +325,7 @@ window.CompoundTranslations={
     "support": "支持",
     "error": "请检查：金额不得为负，年数为1至100的整数，年回报率高于−100%且不超过100%。",
     "after": "{n}年后",
-    "pageTitle": "复利增长计算器 | Valrisa"
+    "pageTitle": "复利增长计算器 | Valrisa",
+    "hub": "计算工具"
   }
 };
