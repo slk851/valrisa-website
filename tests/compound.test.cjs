@@ -1,0 +1,10 @@
+const{project}=require('../calculators/compound/model.js'),assert=require('node:assert/strict');const near=(a,b)=>assert.ok(Math.abs(a-b)<Math.max(1,Math.abs(b))*1e-10,`${a} vs ${b}`);
+near(project({principal:10000,monthly:0,years:20,rate:6}).at(-1).balance,10000*1.06**20);
+near(project({principal:100,monthly:10,years:2,rate:0}).at(-1).balance,340);
+const r=1.06**(1/12)-1,n=240,p=250;near(project({principal:10000,monthly:p,years:20,rate:6}).at(-1).balance,10000*(1+r)**n+p*((1+r)**n-1)/r);
+near(project({principal:0,monthly:p,years:20,rate:6,timing:'start'}).at(-1).balance,p*((1+r)**n-1)/r*(1+r));
+near(project({principal:10000,monthly:0,years:2,rate:-20}).at(-1).balance,6400);
+assert.equal(project({principal:0,monthly:0,years:100,rate:100}).at(-1).balance,0);
+assert.equal(project({principal:0,monthly:1,years:100,rate:-99.99}).length,101);
+for(const change of[{rate:-100},{years:1.5},{principal:-1},{monthly:NaN},{timing:'x'}])assert.throws(()=>project({principal:100,monthly:10,years:2,rate:6,...change}));
+const vm=require('node:vm'),fs=require('node:fs'),context={window:{}};vm.runInNewContext(fs.readFileSync('calculators/compound/translations.js','utf8'),context);for(const[lang,values]of Object.entries(context.window.CompoundTranslations))assert.deepEqual(Object.keys(values).sort(),Object.keys(context.window.CompoundTranslations.en).sort(),lang);console.log('Calculation edge cases, independent formula checks and seven languages passed.');
