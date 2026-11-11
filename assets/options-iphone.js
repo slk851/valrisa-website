@@ -1,6 +1,10 @@
 (() => {
   const copy = {
   "en": {
+    "homeMobileLink": "Options Tracker Mobile",
+    "homeMobileTag": "Investing · iPhone",
+    "homeMobileBody": "Organize brokerage records and track options income on your iPhone.",
+    "homeMobileAction": "Explore the iPhone app",
     "appStore": "View on the App Store",
     "skip": "Skip to content",
     "home": "Home",
@@ -73,7 +77,7 @@
     "shot6": "Portfolio backup and restore controls",
     "iconAlt": "Valrisa Options Tracker app icon",
     "pageTitle": "Valrisa Options Tracker for iPhone | SLK85-Labs",
-    "metaDescription": "Valrisa Options Tracker for iPhone: local brokerage records, weekly and monthly income, CSV imports and backups. Coming soon with a 30-day free trial.",
+    "metaDescription": "Valrisa Options Tracker for iPhone: local brokerage records, weekly and monthly income, CSV imports and backups. Released for iPhone with a 30-day free trial.",
     "ogDescription": "Now released for iPhone.",
     "productPhoneLink": "iPhone version",
     "productPhoneTitle": "Options Tracker for iPhone",
@@ -82,6 +86,10 @@
     "manual": "User manual"
   },
   "ja": {
+    "homeMobileLink": "Options Tracker Mobile",
+    "homeMobileTag": "投資 · iPhone",
+    "homeMobileBody": "iPhoneで証券口座の記録を整理し、オプション取引の収益を確認できます。",
+    "homeMobileAction": "iPhone版を見る",
     "appStore": "App Storeで見る",
     "skip": "本文へ移動",
     "home": "ホーム",
@@ -163,6 +171,10 @@
     "manual": "ユーザーマニュアル"
   },
   "es": {
+    "homeMobileLink": "Options Tracker Mobile",
+    "homeMobileTag": "Inversión · iPhone",
+    "homeMobileBody": "Organiza tus registros de corretaje y consulta tus ingresos por opciones en el iPhone.",
+    "homeMobileAction": "Explorar la app para iPhone",
     "appStore": "Ver en App Store",
     "skip": "Ir al contenido",
     "home": "Inicio",
@@ -244,6 +256,10 @@
     "manual": "Manual de usuario"
   },
   "fr": {
+    "homeMobileLink": "Options Tracker Mobile",
+    "homeMobileTag": "Investissement · iPhone",
+    "homeMobileBody": "Organisez vos relevés de courtage et suivez vos revenus d’options sur iPhone.",
+    "homeMobileAction": "Découvrir l’app iPhone",
     "appStore": "Voir sur l’App Store",
     "skip": "Aller au contenu",
     "home": "Accueil",
@@ -325,6 +341,10 @@
     "manual": "Manuel utilisateur"
   },
   "de": {
+    "homeMobileLink": "Options Tracker Mobile",
+    "homeMobileTag": "Investieren · iPhone",
+    "homeMobileBody": "Organisieren Sie Brokerunterlagen und verfolgen Sie Optionserträge auf dem iPhone.",
+    "homeMobileAction": "iPhone-App ansehen",
     "appStore": "Im App Store ansehen",
     "skip": "Zum Inhalt",
     "home": "Startseite",
@@ -406,6 +426,10 @@
     "manual": "Benutzerhandbuch"
   },
   "it": {
+    "homeMobileLink": "Options Tracker Mobile",
+    "homeMobileTag": "Investimenti · iPhone",
+    "homeMobileBody": "Organizza i dati di intermediazione e monitora i proventi delle opzioni su iPhone.",
+    "homeMobileAction": "Scopri l’app per iPhone",
     "appStore": "Visualizza sull’App Store",
     "skip": "Vai al contenuto",
     "home": "Home",
@@ -487,6 +511,10 @@
     "manual": "Manuale utente"
   },
   "zh": {
+    "homeMobileLink": "Options Tracker Mobile",
+    "homeMobileTag": "投资 · iPhone",
+    "homeMobileBody": "在 iPhone 上整理券商记录并追踪期权收益。",
+    "homeMobileAction": "了解 iPhone 应用",
     "appStore": "在 App Store 中查看",
     "skip": "跳转至正文",
     "home": "首页",
