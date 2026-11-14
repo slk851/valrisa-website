@@ -1,0 +1,7 @@
+Date,Account,Symbol,Currency,Side,Quantity,Unit Price,Fee,Transaction ID
+2026-10-01,Sample Crypto Wallet,BTC,USD,BUY,0.010,70000,2.00,demo-btc-001
+2026-10-02,Sample Crypto Wallet,ETH,USD,BUY,1.000,3000,3.00,demo-eth-001
+2026-10-08,Sample Crypto Wallet,BTC,USD,BUY,0.010,72000,2.00,demo-btc-002
+2026-10-09,Sample Crypto Wallet,ETH,USD,BUY,0.500,3200,1.50,demo-eth-002
+2026-10-15,Sample Crypto Wallet,BTC,USD,SELL,0.005,75000,1.00,demo-btc-003
+2026-10-16,Sample Crypto Wallet,ETH,USD,SELL,0.600,3400,2.00,demo-eth-003
