@@ -1,0 +1,3 @@
+"Date","Action","Symbol","Description","Quantity","Price","Fees & Comm","Amount"
+"10/01/2026","Buy","DEMO1","Fictional example stock","10","$25.00","$0.00","-$250.00"
+"10/15/2026","Cash Dividend","DEMO1","Fictional example dividend","","","","$2.50"
